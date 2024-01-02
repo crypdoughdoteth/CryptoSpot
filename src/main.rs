@@ -17,9 +17,9 @@ struct AssetData {
 
 const ASSETS: &[&str] = &[
     "ETH", "BTC", "SUI", "SOL", "SEI", "TIA", "APT", "MATIC", "FTM", "OP", "ARB", "LINK", "DOT",
-    "ADA", "AVAX",
+    "ADA", "AVAX", "LUNA", "ATOM", "ALGO", "XLM", "XRP", "DOGE", "SHIB", "LTC", "BCH", "EOS", "XTZ",
 ];
-const BASE: &[&str] = &["USD", "CAD", "AUD", "INR", "EUR", "GBP"];
+const BASE: &[&str] = &["USD", "CAD", "AUD", "INR", "EUR", "GBP", "COP", "JPY", "CNY", "HKD"];
 
 #[tokio::main]
 async fn main() -> Result<()> {
