@@ -16,7 +16,7 @@ Go [here](https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-in
 
 # Currencies 
 
-Digital Assets: ETH, BTC, SUI, SOL, SEI, TIA, APT, MATIC, FTM, OP, ARB, LINK, DOT, ADA, AVAX, LUNA, ATOM, ALGO, XLM, XRP, DOGE, SHIB, LTC, BCH, EOS, XTZ.
+Digital Assets: ETH, BTC, SUI, SOL, SEI, TIA, APT, MATIC, FTM, OP, ARB, LINK, DOT, ADA, AVAX, LUNA, ATOM, ALGO, XLM, XRP, DOGE, SHIB, LTC, BCH, EOS, XTZ, NAVX, CETUS.
 
 Fiat Base: USD, EUR, CAD, INR, EUR, GBP, COP, JPY, CNY, HKD. 
 
