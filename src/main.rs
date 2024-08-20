@@ -8,6 +8,7 @@ use tabled::{settings::Style, Table, Tabled};
 #[derive(Debug, Clone, Tabled)]
 pub struct CoinbasePriceData {
     current_price: f64,
+    daily_price_difference: f64, 
     daily_percent: f64,
     base: String,
     currency: String,
@@ -80,6 +81,7 @@ async fn main() -> Result<()> {
 
                 let res = CoinbasePriceData {
                     current_price: recent,
+                    daily_price_difference: recent - day_ago,
                     daily_percent: percent_diff,
                     base: base_selection.to_string(),
                     currency: asset.to_string(),
